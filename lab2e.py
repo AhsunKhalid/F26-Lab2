@@ -20,5 +20,8 @@ else:
     if num_args==2:
         print(f"Hi {name}, good job, you provided two arguements")
     else:
-        print(f"Hi {name}, you are {age} years old and the script recieved exactly {num_args} arguements")
+        print("This script requires exactly two arguements. You provided three arguments")
+
+    #else:
+        #print(f"Hi {name}, you are {age} years old and the script recieved exactly {num_args} arguements")
         

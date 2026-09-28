@@ -16,17 +16,17 @@ if status == "single":
     if income <= 8000:
         tax = income * 0.10
     elif income <= 32000:
-        tax = 800 + (income -8000)  *0.15
+        tax = 800 + 0.15 * (income - 8000)
     else:
-        tax = 4400 + (income -32000) * 0.25
+        tax = 4400 + 0.25 * (income - 32000)
 
 elif status == "married":
     if income <= 16000:
         tax = income *0.10
     elif income <= 64000:
-        tax = 1600 + (income -16000) *0.15
+        tax = 1600 + 0.15 * (income - 16000)
     else:
-        tax = 8800 + (income - 64000) * 0.25
+        tax = 8800 + 0.25 * (income - 64000)
 
 else:
     print ("Invalid Status.")

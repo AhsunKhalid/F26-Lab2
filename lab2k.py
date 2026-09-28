@@ -22,4 +22,4 @@ for number in range(0, 101):
     if number % 2 == 0:
         num += number
 
-print(num)
+print("The sum of all even numbers from 1 to 100 is:", num)
