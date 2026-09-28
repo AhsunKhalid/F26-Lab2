@@ -15,3 +15,11 @@ fruits = ["apple", "banana", "cherry", "date"]
 #    print(fruit)
 
 #for loop is commonly used with range functions. Here's another example using the range function to print numbers from 0  to 5.
+
+total = 0
+
+for number in range(1, 101):
+    if number % 2 == 0:
+        total += number
+
+print(total)

@@ -17,3 +17,10 @@
 # number = int(input("Guess what number less than 10 I am thinking off?")) # keep taking input from user until the user enters the correct guess.
 #print("You got it right!") # this statement will be executed when loop has terminated which will only happen when the user enters the number 5.
 # Define the correct PIN
+
+guess = 1234
+pin=int(input("Please enter your 4-digit pin:"))
+while pin != guess:
+    print("Incorrect....try again")
+    pin = (int(input("Please enter your 4-digit pin:")))
+print ("Correct PIN, You can enter!")

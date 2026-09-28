@@ -9,4 +9,6 @@
 # TO DO 1: Follow the instructions given in README.md file
 # Initialize constant variables for the tax rates and rate limits.
 
+income=inut("Please enter your income:")
+status=input("Please enter your current marital status:")
 
