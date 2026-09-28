@@ -18,5 +18,15 @@
 # ---- and ---- are equal.
 # Get input from the user
 
+str1=input("What is your favorite ice cream?:")
 
+str2=input("Who is your favorite superhero?:")
 
+if len(str1) > len(str2): 
+    print("Statement 1 is longer than Statement 2!")
+
+elif len(str1) < len(str2):
+    print("Statement 2 is longer than Statement 1")
+
+else:
+    print ("Statement 1 and Statemetn 2 are of equal length!")

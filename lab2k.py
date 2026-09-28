@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: AHSUN KHALID
+# Date: 23/09/2026
 # Purpose: use for loop.
 # Usage: ./lab2k.py
 

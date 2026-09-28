@@ -16,5 +16,5 @@ x=int(x)
 if x>= 6:
     print ("x is greater than 6!")
 
-if x>=4 or x<12:
+if x>=4 and x<12:
     print ("x is equal to and greater than 4 and less than 12!")
