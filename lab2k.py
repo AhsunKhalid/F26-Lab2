@@ -16,10 +16,10 @@ fruits = ["apple", "banana", "cherry", "date"]
 
 #for loop is commonly used with range functions. Here's another example using the range function to print numbers from 0  to 5.
 
-total = 0
+num = 0
 
-for number in range(1, 101):
+for number in range(0, 101):
     if number % 2 == 0:
-        total += number
+        num += number
 
-print(total)
+print(num)
