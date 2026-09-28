@@ -30,3 +30,4 @@ elif len(str1) < len(str2):
 
 else:
     print ("Statement 1 and Statemetn 2 are of equal length!")
+    

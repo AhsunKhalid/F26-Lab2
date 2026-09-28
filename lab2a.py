@@ -18,3 +18,4 @@ if x>= 6:
 
 if x>=4 and x<12:
     print ("x is equal to and greater than 4 and less than 12!")
+    

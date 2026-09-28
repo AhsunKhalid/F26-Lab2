@@ -21,3 +21,4 @@ else:
         print(f"Hi {name}, good job, you provided two arguements")
     else:
         print(f"Hi {name}, you are {age} years old and the script recieved exactly {num_args} arguements")
+        

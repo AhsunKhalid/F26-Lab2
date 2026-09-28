@@ -18,3 +18,4 @@ else:
         print (f"Hi {name}, you are {age} years old and the script receieved {num_args} arguements")
     else:
         print (f"Hi {name}, you are {age} years old and the script receieved {num_args} arguements")
+        
